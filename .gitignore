@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS
+.DS_Store
+
+# Model weights (large files)
+# yolov8n.pt  # Uncomment if you want to exclude model weights
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Data
+data/*.csv
+data/*.json
+data/datasets/
+
+# Temporary files
+*.tmp
+*.bak
